@@ -87,6 +87,18 @@ AUTHENTICATION_BACKENDS = (
 WSGI_APPLICATION = 'djangosocial_auth.wsgi.application'
 
 
+SOCIAL_AUTH_GITHUB_KEY = 'bb056b490ace464b2f37'
+SOCIAL_AUTH_GITHUB_SECRET = 'a26991a1400ae6d41683c57d0969057f8c58536a'
+
+SOCIALACCOUNT_PROVIDERS = {
+    'github': {
+        'SCOPE': [
+            'user',
+            'repo',
+            'read:org',
+        ],
+    }
+}
 # Database
 # https://docs.djangoproject.com/en/2.2/ref/settings/#databases
 
