@@ -5,7 +5,13 @@
     
     pip install django-allauth
     
+Documentation
+
     https://django-allauth.readthedocs.io/en/latest/installation.html
+
+Guide
+
+    https://www.youtube.com/watch?v=dXZim_jgaiI&t=334s
     
 ## Configuration facebook
 
