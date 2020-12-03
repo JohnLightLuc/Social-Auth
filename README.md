@@ -6,8 +6,13 @@
     pip install django-allauth
     
 Documentation
-
+    
+    #Django-allauth
     https://django-allauth.readthedocs.io/en/latest/installation.html
+    
+    #django-social-auth
+    https://github.com/python-social-auth/social-app-django
+    https://python-social-auth.readthedocs.io/en/latest/configuration/django.html
 
 Guide
 
